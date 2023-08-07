@@ -3,14 +3,14 @@ main {
     display: flex;
 }
 
-header{
+header {
     width: 100%;
     padding: 10px;
     background-color: navy;
     color: white;
 }
 
-header h1{
+header h1 {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -42,7 +42,7 @@ input[type="text"] {
     width: 100%;
 }
 
-#city-input{
+#city-input {
     width: 300px;
     margin-right: 10px;
     display: block;
@@ -58,7 +58,8 @@ button {
     cursor: pointer;
 }
 
-#current-weather, #forecast {
+#current-weather,
+#forecast {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -72,6 +73,7 @@ button {
     border-radius: 5px;
     margin: 10px;
 }
+
 .forecast-card {
     width: 200px;
     padding: 10px;
